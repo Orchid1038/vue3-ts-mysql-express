@@ -1,2 +1,2 @@
 # 忽略 database/index.js 檔案
-database/index.js
+/database/index.js
