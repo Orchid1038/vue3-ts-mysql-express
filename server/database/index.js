@@ -1,5 +1,5 @@
 //導入mysql資料庫
-const mysql = require("mysql");
+const mysql = require("mysql2");
 //創建資料庫連接
 const db = mysql.createPool({
   host: "localhost",
