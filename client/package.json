@@ -18,7 +18,7 @@
     "sass-loader": "^14.2.1",
     "sty": "^0.6.1",
     "style-loader": "^4.0.0",
-    "vue": "^3.4.21",
+    "vue": "^3.4.26",
     "vue-router": "^4.3.2"
   },
   "devDependencies": {
