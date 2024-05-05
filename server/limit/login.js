@@ -2,7 +2,13 @@ const joi = require("joi");
 //string 只能為字串 alphanum 值為a-z A-Z 0-9
 //required是必填
 //pattern是正則
-const account = joi.string().alphanum().min(6).max(12).required();
+const account = joi
+  .string()
+  .pattern(/^(?![0-9]+$)[a-z0-9]{1,50}$/)
+  .min(6)
+  .max(12)
+  .required();
+
 const password = joi
   .string()
   .pattern(/^(?![0-9]+$)[a-z0-9]{1,50}$/)
